@@ -1,0 +1,15 @@
+# Skompilowane programy
+cron_app
+logger_test
+
+# Pliki obiektowe
+src/*.o
+
+# Logi wygenerowane przez program (żebyś nie wrzucał swoich testów)
+logger_file.txt
+test_log.txt
+dump_*.txt
+
+# Pliki systemowe i edytorów
+.DS_Store
+*.swp
