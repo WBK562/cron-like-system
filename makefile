@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Iinclude -Wall -Wextra
 LIBS = -pthread -lrt
-SRC = src/cron.c src/logger.c src/main.c
+SRC = src/cron.c src/client.c src/logger.c src/main.c
 OBJ = $(SRC:.c=.o)
 TARGET = cron_app
 
