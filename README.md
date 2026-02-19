@@ -16,6 +16,10 @@ A lightweight, Linux-based Task Scheduler (Cron) implementation using POSIX Mess
 * GCC Compiler.
 * POSIX Real-time extensions (available in most modern Linux distros).
 
+### How to Run (Two Terminals Required)
+
+This project requires two separate terminal instances (one for server and one for client) to demonstrate the Client-Server communication via POSIX Message Queues.
+
 ### Compilation
 Build the project using the provided Makefile:
 ```bash
